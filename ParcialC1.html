@@ -39,28 +39,18 @@
         /><br />
 
         <label>Género:</label><br />
-        <input
-          type="radio"
-          id="generoMasculino"
-          name="genero"
-          value="Masculino"
-          required
-        />
-        <label for="generoMasculino">Masculino</label><br />
-        <input
-          type="radio"
-          id="generoFemenino"
-          name="genero"
-          value="Femenino"
-        />
-        <label for="generoFemenino">Femenino</label><br />
-        <input
-          type="radio"
-          id="generoPND"
-          name="genero"
-          value="PrefieroNoDecir"
-        />
-        <label for="generoOtro">Prefiero no Decir</label><br />
+        <div class="genero-opcion">
+            <input type="radio" id="generoMasculino" name="genero" value="Masculino" required />
+            <label for="generoMasculino">Masculino</label><br />
+        </div>
+        <div class="genero-opcion">
+            <input type="radio" id="generoFemenino" name="genero" value="Femenino" />
+            <label for="generoFemenino">Femenino</label><br />
+        </div>
+        <div class="genero-opcion">
+            <input type="radio" id="generoPND" name="genero" value="PrefieroNoDecir" />
+            <label for="generoPND">Prefiero no Decir</label><br />
+        </div>
 
         <label for="pais">País:</label>
         <select id="pais" name="pais" required>
@@ -100,7 +90,6 @@
           <option value="Croacia">Croacia</option>
           <option value="Otro">Otro</option>
         </select><br />
-      </fieldset>
       <label for="intereses">Intereses:</label>
       <br>
       <label>

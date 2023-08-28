@@ -22,6 +22,13 @@ fieldset {
     padding: 15px;
 }
 
+.genero-opcion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
 label {
     display: block;
     margin-bottom: 5px;
