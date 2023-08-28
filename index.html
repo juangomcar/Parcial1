@@ -5,77 +5,66 @@
     <title>Proyecto</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Formulario</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>Formulario</h1>
-    <form action="#" method="POST">
-        <fieldset>
-            <legend>Informacion Personal</legend>
-            <label for="nombre">Nombre Completo:</label>
-            <input type="text" id="nombre" name="nombre" required /><br />
+    <div >
+        <form action="#" method="POST">
+            <fieldset class="personal-info">
+                <legend>Informacion Personal</legend>
+                <label for="nombre">Nombre Completo:</label>
+                <input type="text" id="nombre" name="nombre" required /><br />
 
-            <label for="correo">Correo Electrónico:</label>
-            <input type="email" id="correo" name="correo" required /><br />
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" name="correo" required /><br />
 
-            <label for="contraseña">Contraseña:</label>
-            <input type="password" id="contraseña" name="contraseña" minlength="8" required /><br />
+                <label for="contraseña">Contraseña:</label>
+                <input type="password" id="contraseña" name="contraseña" minlength="8" required /><br />
 
-            <label for="confirmarContraseña">Confirmar Contraseña:</label>
-            <input type="password" id="confirmarContraseña" name="confirmarContraseña" minlength="8" required /><br />
+                <label for="confirmarContraseña">Confirmar Contraseña:</label>
+                <input type="password" id="confirmarContraseña" name="confirmarContraseña" minlength="8"
+                    required /><br />
 
-            <label>Género:</label><br />
-            <input type="radio" id="generoMasculino" name="genero" value="Masculino" required />
-            <label for="generoMasculino">Masculino</label><br />
-            <input type="radio" id="generoFemenino" name="genero" value="Femenino" />
-            <label for="generoFemenino">Femenino</label><br />
-            <input type="radio" id="generoPND" name="genero" value="PrefieroNoDecir" />
-            <label for="generoOtro">Prefiero no Decir</label><br />
+                <label>Género:</label><br />
+                <input type="radio" id="generoMasculino" name="genero" value="Masculino" required />
+                <label for="generoMasculino">Masculino</label><br />
+                <input type="radio" id="generoFemenino" name="genero" value="Femenino" />
+                <label for="generoFemenino">Femenino</label><br />
+                <input type="radio" id="generoPND" name="genero" value="PrefieroNoDecir" />
+                <label for="generoOtro">Prefiero no Decir</label><br />
 
-            <label for="pais">País:</label>
-            <select id="pais" name="pais" required>
-                <option value="" disabled selected>Selecciona un país</option>
-                <option value="Argentina">Argentina</option>
-                <option value="USA">USA</option>
-                <option value="España">España</option>
-                <option value="Colombia">Colombia</option>
-                <option value="Peru">Peru</option>
-                <option value="Italia">Italia</option>
-                <option value="Venezuela">Venezuela</option>
-                <option value="Ecuador">Ecuador</option>
-                <option value="Brasil">Brasil</option>
-                <option value="Mexico">Mexico</option>
-                <option value="Bolivia">Bolivia</option>
-            </select><br />
+                <label for="pais">País:</label>
+                <select id="pais" name="pais" required>
+                    <option value="" disabled selected>Selecciona un país</option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="USA">USA</option>
+                    <!-- Agrega más opciones aquí si lo deseas -->
+                </select><br />
 
-            <label for="intereses">Intereses:</label>
-            <br>
-            <label>
-                <input type="checkbox" name="interest" value="deportes"> Deportes
-            </label><br>
-            <label>
-                <input type="checkbox" name="interest" value="tecnologia"> Tecnología
-            </label><br>
-            <label>
-                <input type="checkbox" name="interest" value="viajes"> Viajes
-            </label><br>
-            <label>
-                <input type="checkbox" name="interest" value="musica"> Música
-            </label><br>
+                <label for="intereses">Intereses:</label>
+                <br>
+                <label>
+                    <input type="checkbox" name="interest" value="deportes"> Deportes
+                </label><br>
+                <label>
+                    <input type="checkbox" name="interest" value="tecnologia"> Tecnología
+                </label><br>
+                <!-- Agrega más intereses aquí si lo deseas -->
 
-            <legend>Comentarios</legend>
-            <label for="comments">Escribe tus comentarios:</label><br>
-            <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+                <legend>Comentarios</legend>
+                <label for="comments">Escribe tus comentarios:</label><br>
+                <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
 
-            <legend>Cargar Archivo</legend>
-            <input type="file" name="fileUpload" accept=".jpg, .jpeg, .png, .pdf, .doc, .docx">
+                <legend>Cargar Archivo</legend>
+                <input type="file" name="fileUpload" accept=".jpg, .jpeg, .png, .pdf, .doc, .docx">
 
-        </fieldset>
+            </fieldset>
 
-        <input type="submit" value="Registrarse" />
-    </form>
+            <input type="submit" value="Registrarse" />
+        </form>
+    </div>
+
 </body>
 
 </html>
