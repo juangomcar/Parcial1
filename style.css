@@ -37,6 +37,13 @@ label {
     font-weight: bold;
 }
 
+.genero-opcion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
 input[type="text"],
 input[type="email"],
 input[type="password"],
