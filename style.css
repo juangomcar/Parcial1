@@ -6,7 +6,7 @@ body {
 
 h1 {
     text-align: center;
-    padding: 20px;
+    padding: 20px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 form {
@@ -21,7 +21,6 @@ fieldset {
     border: 1px solid #ccc;
     padding: 15px;
 }
-
 
 label {
     display: block;
